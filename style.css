@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/background-image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.container{
+   min-width: 350px;  
+   margin: 50px 100px;
+   padding: 30px;
+   background-color: rgba(10, 10, 175, 0.685);
+    border-radius: 10px;
+
+}
+.heading{
+    margin-bottom:5px ;
+}
+.description{
+    margin-bottom: 7px;
+    text-align: center;
+}
+.rent-form{
+    width: 200px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.heading h3{
+    text-align: center;
+    color: white;
+}
+.heading span{
+    color: yellow;
+    
+}
+label{
+    display: block;
+}
+input{
+margin: 4px 10px;
+
+}
+select{
+    margin: 5px;
+}
