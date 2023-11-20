@@ -8,13 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <div class="heading"><h3>Rent<span>Car</span></h3></div>
+        <div class="form-container">
+        <div class="heading"><h1>Rent<span>Car</span></h1></div>
+
+
         <p class="description">Thank You for Sendind We Will Contact You Soon</p>
-       <form action="" class="rent-form">
-        <div class="personal-info">
+       
+        <form action="" class="rent-form">
+       
+            
             <label for="name" class="name">Name</label>
             <input type="text" id="name" placeholder="Name">
-        </div>
+    
         <div>
             <label class="age" for="age">Age</label>
             <input type="number" id="age" placeholder="Age">
@@ -50,12 +55,21 @@
                 <option value="dacia-dokker">Dacia Dokker</option>
             </select>
         </div>
+        <p class="transmission-title">Transmission Type:</p>
+        <div class="transmission">
+            <label for="Auto">Auto </label>
+            <input type="radio" id="Auto">
+            <br>
+            <label for="Manuel">Manuel </label>
+            <input type="radio" id="Manuel" checked>
+        </div>
         <div>
-        <label for="text" class="mesage-area">Message: </label>
-        <input type="text" id="message">
+        <label for="message" class="mesage-area">Message: </label>
+        <input type="text" class="message-input" placeholder="if you need any spesification" id="message" value="Auto" >
     </div>
-    <div><input type="submit" value="Send"></div>
+    <div><input type="submit" value="Send" class="btn"></div>
        </form>
+    </div>
     </div>
 </body>
 </html>

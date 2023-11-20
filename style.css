@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-image: url(./img/background-image.jpg);
    background-repeat: no-repeat;
@@ -11,44 +12,70 @@ body{
 }
 
 .container{
-   min-width: 350px;  
+   min-width: 450px;  
    margin: 50px 100px;
-   padding: 30px;
-   background-color: rgba(10, 10, 175, 0.685);
+   padding: 100px;
+   background-color:rgba(255, 255, 255, 0.658);
     border-radius: 10px;
 
 }
+.form-container{
+    width: 450px;
+
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px 40px;
+}
+.form-container p{
+    color: white;
+}
+
 .heading{
     margin-bottom:5px ;
+    font-size: 30px;
+    font-weight: 600;
+}
+ .heading span{
+    color:white;
+}
+.heading h1{
+    text-align: center;
+    color:yellow;
 }
 .description{
     margin-bottom: 7px;
     text-align: center;
-}
-.rent-form{
-    width: 200px;
-    background-color: blueviolet;
-    margin: 0 auto;
-}
-.heading{
-    font-size: 30px;
-    font-weight: 600;
-}
-.heading h3{
-    text-align: center;
     color: white;
 }
-.heading span{
-    color: yellow;
-    
-}
 label{
-    display: block;
+    color: white;
 }
 input{
-margin: 4px 10px;
-
+    color: white;
 }
-select{
+.transmission p{
+    color: white;
+}
+.rent-form label{
+    display: block;
     margin: 5px;
+}
+.rent-form input,select{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.btn{
+    color: black;
+    width: 50%;
+    border-radius: 15px;
+}
+.transmission-title{
+    margin: 5px ;
+}
+.transmission{
+    display: flex;
+}
+.message-input{
+    height: 60px;
 }
